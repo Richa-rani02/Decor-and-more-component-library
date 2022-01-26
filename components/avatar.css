@@ -1,0 +1,34 @@
+.avatar{
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+.avatar-lg-size{
+    width: 7rem;
+    height: 7rem;
+    font-size: 3rem;
+}
+.avatar-md-size{
+    width: 5.8rem;
+    height: 5.8rem;
+    font-size: 2rem;
+}
+
+.avatar-sm-size{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+.avatar-xs-size{
+    width: 2rem;
+    height: 2rem;
+    font-size: 8px;
+}
+
+.avatar-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--secondary-color);
+    color: white;
+}
