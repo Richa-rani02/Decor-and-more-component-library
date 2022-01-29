@@ -1,8 +1,7 @@
 .avatar{
     border-radius: 50%;
-    border:2px solid white;
+    border:2px solid var(--white-color);
 }
-
 .avatar-lg-size{
     width: 7rem;
     height: 7rem;
@@ -15,9 +14,9 @@
 }
 
 .avatar-sm-size{
-    width: 3rem;
-    height: 3rem;
-    font-size: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
 }
 .avatar-xs-size{
     width: 2rem;
@@ -29,6 +28,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:var(--secondary-color);
-    color: white;
+    background-color:var(--primary-color);
+    color: var(--white-color);
 }
