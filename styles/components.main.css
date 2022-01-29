@@ -1,0 +1,21 @@
+@import "../components/alerts.css";
+@import "../components/badges.css";
+@import "../components/images.css";
+@import "../components/alerts.css";
+@import "/styles/reset.css";
+
+:root{
+    --primary-color:#14213d;
+    --secondary-color: #ff6e40;
+    --off-white:#edf2f4;
+    --available-color:#47D764;
+    --away-color:#ffbc2c;
+    --error-color:red;
+    --alert-info-color:#2F86EB;
+    --alert-warning-color:#FFC021;
+    --alert-heading-color:#101020;
+    --alert-para-color:#656565;
+    --white-color:white;
+
+    /* --secondary-color: #FF8A00;  */
+}
