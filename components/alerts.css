@@ -1,27 +1,17 @@
 .alert{
-    padding: 1.3rem;
-   background-color: var(--white-color);
+    padding: 1rem 1.5rem;
    border-radius: 7px;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: flex-start;
    flex-wrap: wrap;
    gap: 1rem;
-    max-width: 380px;
-    min-height: 5.5rem;
+  width: 100%;
     font-family: "Poppins",sans-serif;
- }
- .alert button{
-   background-color: transparent;
-   font-size: 1.8rem;
-     color: var(--alert-para-color);
-     cursor: pointer;
-     line-height: 0;
-     border: none;
  }
 
  .container-1 i{
-  font-size: 2.5rem;
+  font-size: 2rem;
  }
 
  .container-2 p:first-child{
@@ -38,6 +28,7 @@
  /* Sucess */
  .success{
      border-left: 8px solid var(--available-color);
+     background-color: var(--available-color-light);
  }
  .success i{
    color: var(--available-color)
@@ -46,6 +37,7 @@
  /* error */
  .error{
       border-left: 8px solid var(--error-color);
+      background-color: var(--error-color-light);
  }
  .error i{
    color: var(--error-color);
@@ -54,13 +46,15 @@
  /* info */
  .info{
       border-left: 8px solid var(--alert-info-color);
- }
+      background-color: var(--alert-info-color-light);
+    }
  .info i{
     color: var(--alert-info-color);
  }
  
  /* warning */
  .warning{
+   background-color: var(--alert-color-light);
       border-left: 8px solid  var(--alert-warning-color);
  }
  .warning i{

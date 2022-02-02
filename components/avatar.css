@@ -1,26 +1,27 @@
 .avatar{
     border-radius: 50%;
     border:2px solid var(--white-color);
+    
 }
 .avatar-lg-size{
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 9.5rem;
+    height: 9.5rem;
     font-size: 3rem;
 }
 .avatar-md-size{
-    width: 6rem;
-    height: 6rem;
+    width: 6.5rem;
+    height: 6.5rem;
     font-size: 2rem;
 }
 
 .avatar-sm-size{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 5rem;
+    height: 5rem;
     font-size: 1.5rem;
 }
 .avatar-xs-size{
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     font-size: 8px;
 }
 

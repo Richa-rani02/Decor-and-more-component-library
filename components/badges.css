@@ -12,19 +12,19 @@
 .badge-container .avatar-md-size ~ .badge{
     width:1rem;
     height: 1rem;
-    bottom: 10px;
+    bottom: 0.85rem;
     right: 10px;
 }
 .badge-container .avatar-sm-size ~ .badge{
-    width:0.75rem;
-    height: 0.75rem;
-    bottom: 8px;
+    width:0.85rem;
+    height: 0.85rem;
+    bottom: 0.85rem;
     right: 4px;
 }
 .badge-container .avatar-xs-size ~ .badge{
-    width:8px;
-    height: 8px;
-    bottom: 7px;
+    width:9px;
+    height: 9px;
+    bottom: 11px;
     right: 1px;
 }
 .available{

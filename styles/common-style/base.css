@@ -1,0 +1,8 @@
+.display-flex-col{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-margin{
+    height: 13vh;
+}
