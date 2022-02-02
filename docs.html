@@ -1,78 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/styles/documentation.css" rel="stylesheet" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/documentation.css" rel="stylesheet" />
 
-        <link rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-            crossorigin="anonymous" />
-        <title>Documentation</title>
-    </head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <title>Documentation</title>
+</head>
 
-    <body>
-        <div class="grid-container">
-            <nav class="navbar">
-                <div class="hamburger"><span>&#9776;</span></div>
-               
-                <div class="logo">
-                    <span class="title">Décor</span><span class="small-title
+<body>
+    <div class="grid-container">
+        <nav class="navbar">
+            <div class="hamburger"><span>&#9776;</span></div>
+
+            <div class="logo">
+                <span class="title">Décor</span><span class="small-title
                         text-highlight"> &
-                    </span><span class="title">More</span>
+                </span><span class="title">More</span>
+            </div>
+            <ul class="nav-link">
+
+                <div class="nav-items">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/"><i class="fab fa-github"></i></a></li>
                 </div>
-                <ul class="nav-link">
+            </ul>
+        </nav>
 
-                    <div class="nav-items">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/"><i class="fab fa-github"></i></a></li>
-                    </div>
+
+        <main>
+            <!-- ----------------------Avatar--------------------------- -->
+            <div id="Avatar">
+                <div class="component-def">
+                    <h1 class="heading-primary">Avatar</h1>
+                    <p class="p-body-lg small-weight main-p">Avatar are
+                        images that user can set as a profile picture. It
+                        can be custom photos or can be in text format</p>
+                </div>
+                <h2 class="heading-primary">Image Avatar</h2>
+                <p class="p-body-md main-p">To use this Image avatar add
+                    code from below code snippet and
+                    add classes to it accordingly depending on size you want
+                    to implement .Few classes are: </p>
+
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-lg-size</li>
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-md-size</li>
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-sm-size</li>
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-xs-size</li>
                 </ul>
-            </nav>
 
+                <div class="component-code-container">
+                    <div class="component-container">
 
-            <main>
-                <!-- ----------------------Avatar--------------------------- -->
-                <div id="Avatar">
-                    <div class="component-def">
-                        <h1 class="heading-primary">Avatar</h1>
-                        <p class="p-body-lg small-weight main-p">Avatar are
-                            images that user can set as a profile picture. It
-                            can be custom photos or can be in text format</p>
+                        <img class="avatar avatar-md-size" src="/Images/avatar1.jpg" alt="Avatar Image">
+                        <img class="avatar avatar-sm-size" src="/Images/avatar1.jpg" alt="Avatar Image">
+                        <img class="avatar avatar-xs-size" src="/Images/avatar1.jpg" alt="Avatar Image">
                     </div>
-                    <h2 class="heading-primary">Image Avatar</h2>
-                    <p class="p-body-md main-p">To use this Image avatar add
-                        code from below code snippet and
-                        add classes to it accordingly depending on size you want
-                        to implement .Few classes are: </p>
-
-                    <ul class="main-bullet-points display-flex-col">
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-lg-size</li>
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-md-size</li>
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-sm-size</li>
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-xs-size</li>
-                    </ul>
-
-                    <div class="component-code-container">
-                        <div class="component-container">
-
-                            <img class="avatar avatar-md-size"
-                                src="/Images/avatar1.jpg" alt="Avatar Image">
-                            <img class="avatar avatar-sm-size"
-                                src="/Images/avatar1.jpg" alt="Avatar Image">
-                            <img class="avatar avatar-xs-size"
-                                src="/Images/avatar1.jpg" alt="Avatar Image">
-                        </div>
-                        <div class="code-container">
-                            <div class="code-snippet-display">
-                                <code>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
                                     <iframe
                                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520"
                                         style="border:0; transform:
@@ -81,38 +76,35 @@
                                         allow-same-origin">
                                     </iframe>
                                 </code>
-                            </div>
                         </div>
                     </div>
-                    <h2 class="heading-primary">Text Avatar</h2>
-                    <p class="p-body-md main-p">To use this text avatar add code
-                        from below code snippet and
-                        add classes to it accordingly depending on size you want
-                        to implement .Few classes are: </p>
-                    <ul class="main-bullet-points display-flex-col">
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-lg-size avatar-text</li>
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-md-size avatar-text</li>
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-sm-size avatar-text</li>
-                        <li class="p-body-md text-highlight regular-weight">avatar
-                            avatar-xs-size avatar-text</li>
-                    </ul>
-                    <div class="component-code-container">
-                        <div class="component-container">
+                </div>
+                <h2 class="heading-primary">Text Avatar</h2>
+                <p class="p-body-md main-p">To use this text avatar add code
+                    from below code snippet and
+                    add classes to it accordingly depending on size you want
+                    to implement .Few classes are: </p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-lg-size avatar-text</li>
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-md-size avatar-text</li>
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-sm-size avatar-text</li>
+                    <li class="p-body-md text-highlight regular-weight">avatar
+                        avatar-xs-size avatar-text</li>
+                </ul>
+                <div class="component-code-container">
+                    <div class="component-container">
 
-                            <div class="avatar avatar-md-size avatar-text"
-                                role="img" alt="avatar">RR</div>
-                            <div class="avatar avatar-sm-size avatar-text"
-                                role="img" alt="avatar">RR</div>
-                            <div class="avatar avatar-xs-size avatar-text"
-                                role="img" alt="avatar">RR</div>
-                        </div>
-                        <div class="code-container">
-                            <div class="code-snippet-display">
+                        <div class="avatar avatar-md-size avatar-text" role="img" alt="avatar">RR</div>
+                        <div class="avatar avatar-sm-size avatar-text" role="img" alt="avatar">RR</div>
+                        <div class="avatar avatar-xs-size avatar-text" role="img" alt="avatar">RR</div>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
 
-                                <code>
+                            <code>
                                     <iframe
                                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2520avatar-text%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253ERR%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2520avatar-text%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253ERR%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xs-size%2520avatar-text%2522%2520role%253D%2522img%2522%2520alt%253D%2522avatar%2522%253ERR%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
                                         style="border:0; transform:
@@ -121,80 +113,80 @@
                                         allow-same-origin">
                                     </iframe>
                                 </code>
-                            </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- ---------------------Alerts------------------------------------------ -->
-                <div id="Alerts">
-                    <div class="component-def">
-                        <h1 class="heading-primary">Alerts</h1>
-                        <p class="p-body-lg small-weight main-p">Alert messages
-                            are used to notify the user about
-                            something special: danger, success, information or
-                            warning.</p>
-                    </div>
-                    <p class="p-body-md main-p">To use this Alert add code from
-                        below code snippet and
-                        add classes to it accordingly.Few classes are: </p>
-                    <ul class="main-bullet-points display-flex-col">
-                        <li class="p-body-md text-highlight regular-weight">alert
-                            success</li>
-                        <li class="p-body-md text-highlight regular-weight">alert
-                            error</li>
-                        <li class="p-body-md text-highlight regular-weight">alert
-                            info</li>
-                        <li class="p-body-md text-highlight regular-weight">alert
-                            warning</li>
-                    </ul>
-                    <div class="component-code-container">
-                        <div class="component-container display-flex-col">
+
+            </div>
+            <!-- ---------------------Alerts------------------------------------------ -->
+            <div id="Alerts">
+                <div class="component-def">
+                    <h1 class="heading-primary">Alerts</h1>
+                    <p class="p-body-lg small-weight main-p">Alert messages
+                        are used to notify the user about
+                        something special: danger, success, information or
+                        warning.</p>
+                </div>
+                <p class="p-body-md main-p">To use this Alert add code from
+                    below code snippet and
+                    add classes to it accordingly.Few classes are: </p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">alert
+                        success</li>
+                    <li class="p-body-md text-highlight regular-weight">alert
+                        error</li>
+                    <li class="p-body-md text-highlight regular-weight">alert
+                        info</li>
+                    <li class="p-body-md text-highlight regular-weight">alert
+                        warning</li>
+                </ul>
+                <div class="component-code-container">
+                    <div class="component-container display-flex-col">
 
 
-                            <div class="alert success">
-                                <div class="container-1">
-                                    <i class="fas fa-check-circle"></i>
-                                </div>
-                                <div class="container-2">
-                                    <p>Success</p>
-                                    <p>Your changes are saved successfully</p>
-                                </div>
+                        <div class="alert success">
+                            <div class="container-1">
+                                <i class="fas fa-check-circle"></i>
                             </div>
-
-                            <div class="alert error">
-                                <div class="container-1">
-                                    <i class="fas fa-times-circle"></i>
-                                </div>
-                                <div class="container-2">
-                                    <p>Error</p>
-                                    <p>Something wrong happened</p>
-                                </div>
-                            </div>
-
-                            <div class="alert info">
-                                <div class="container-1">
-                                    <i class="fas fa-info-circle"></i>
-                                </div>
-                                <div class="container-2">
-                                    <p>Info</p>
-                                    <p>An update is available to install</p>
-                                </div>
-                            </div>
-                            <div class="alert warning">
-                                <div class="container-1">
-                                    <i class="fas fa-exclamation-circle"></i>
-                                </div>
-                                <div class="container-2">
-                                    <p>warning</p>
-                                    <p>Entered username is invalid</p>
-                                </div>
+                            <div class="container-2">
+                                <p>Success</p>
+                                <p>Your changes are saved successfully</p>
                             </div>
                         </div>
-                        <div class="code-container">
-                            <div class="code-snippet-display">
 
-                                <code>
+                        <div class="alert error">
+                            <div class="container-1">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div class="container-2">
+                                <p>Error</p>
+                                <p>Something wrong happened</p>
+                            </div>
+                        </div>
+
+                        <div class="alert info">
+                            <div class="container-1">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="container-2">
+                                <p>Info</p>
+                                <p>An update is available to install</p>
+                            </div>
+                        </div>
+                        <div class="alert warning">
+                            <div class="container-1">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <div class="container-2">
+                                <p>warning</p>
+                                <p>Entered username is invalid</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+
+                            <code>
                                     <iframe
                                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520---------Alert--success-------------------%2520%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESuccess%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EYour%2520changes%2520are%2520saved%2520successfully%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520---------Alert--error-------------------%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EError%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESomething%2520wrong%2520happened%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520-----------Alert--info-------------------%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EInfo%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAn%2520update%2520is%2520available%2520to%2520install%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520-----------Alert--warning-------------------%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Ewarning%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EEntered%2520username%2520is%2520invalid%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
                                         style="border:0; transform: scale(1);
@@ -203,80 +195,75 @@
                                         allow-same-origin">
                                     </iframe>
                                 </code>
-                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
 
-                <!-- ---------------------------Badges---------------------------   -->
-                <div id="Badges">
-                    <div class="component-def">
-                        <h1 class="heading-primary">Badges</h1>
-                        <p class="p-body-lg small-weight main-p">Badges are used
-                            to provide additional information to user. Example:
-                            to show count of items in cart ,notifications</p>
-                    </div>
-                    <h2 class="heading-primary">Avatar Badges</h2>
-                    <p class="p-body-md main-p">To use avatar badges add code
-                        from below code snippet and
-                        add classes to it.Few classes are: </p>
-                    <ul class="main-bullet-points display-flex-col">
-                        <li class="p-body-md text-highlight regular-weight">badge
-                            available</li>
-                        <li class="p-body-md text-highlight regular-weight">badge
-                            away</li>
-                        <li class="p-body-md text-highlight regular-weight">badge
-                            busy</li>
+            <!-- ---------------------------Badges---------------------------   -->
+            <div id="Badges">
+                <div class="component-def">
+                    <h1 class="heading-primary">Badges</h1>
+                    <p class="p-body-lg small-weight main-p">Badges are used
+                        to provide additional information to user. Example:
+                        to show count of items in cart ,notifications</p>
+                </div>
+                <h2 class="heading-primary">Avatar Badges</h2>
+                <p class="p-body-md main-p">To use avatar badges add code
+                    from below code snippet and
+                    add classes to it.Few classes are: </p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">badge
+                        available</li>
+                    <li class="p-body-md text-highlight regular-weight">badge
+                        away</li>
+                    <li class="p-body-md text-highlight regular-weight">badge
+                        busy</li>
 
-                    </ul>
-                    <div class="component-code-container">
-                        <div class="component-container">
+                </ul>
+                <div class="component-code-container">
+                    <div class="component-container">
 
 
 
-                            <div class="badge-container">
-                                <img class="avatar avatar-md-size"
-                                    src="/Images/avatar1.jpg" alt="Avatar
+                        <div class="badge-container">
+                            <img class="avatar avatar-md-size" src="/Images/avatar1.jpg" alt="Avatar
                                     Image">
-                                <span class="badge available"></span>
-                            </div>
-                            <div class="badge-container">
-                                <img class="avatar avatar-sm-size"
-                                    src="/Images/avatar1.jpg" alt="AvatarImage">
-                                <span class="badge available"></span>
-                            </div>
-                            <div class="badge-container">
-                                <img class="avatar avatar-xs-size"
-                                    src="/Images/avatar1.jpg" alt="Avatar
+                            <span class="badge available"></span>
+                        </div>
+                        <div class="badge-container">
+                            <img class="avatar avatar-sm-size" src="/Images/avatar1.jpg" alt="AvatarImage">
+                            <span class="badge available"></span>
+                        </div>
+                        <div class="badge-container">
+                            <img class="avatar avatar-xs-size" src="/Images/avatar1.jpg" alt="Avatar
                                     Image">
-                                <span class="badge available"></span>
-                            </div>
-
-
-
-                            <div class="badge-container">
-                                <img class="avatar avatar-md-size"
-                                    src="/Images/avatar1.jpg" alt="Avatar
-                                    Image">
-                                <span class="badge away"></span>
-                            </div>
-
-
-
-                            <div class="badge-container">
-                                <img class="avatar avatar-md-size"
-                                    src="/Images/avatar1.jpg" alt="Avatar
-                                    Image">
-                                <span class="badge busy"></span>
-                            </div>
-
+                            <span class="badge available"></span>
                         </div>
 
-                        <div class="code-container">
-                            <div class="code-snippet-display">
-                                <code>
+
+
+                        <div class="badge-container">
+                            <img class="avatar avatar-md-size" src="/Images/avatar1.jpg" alt="Avatar
+                                    Image">
+                            <span class="badge away"></span>
+                        </div>
+
+
+
+                        <div class="badge-container">
+                            <img class="avatar avatar-md-size" src="/Images/avatar1.jpg" alt="Avatar
+                                    Image">
+                            <span class="badge busy"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
                                     <iframe
                                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Available%2520%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520available%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%2520alt%253D%2522AvatarImage%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520available%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520available%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Away%2520%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520away%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Busy%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-md-size%2522%2520src%253D%2522%252FImages%252Favatar1.jpg%2522%2520alt%253D%2522Avatar%2520Image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520busy%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
                                         style="border:0; transform: scale(1);
@@ -285,38 +272,38 @@
                                         allow-same-origin">
                                     </iframe>
                                 </code>
-                            </div>
                         </div>
                     </div>
-                    <h2 class="heading-primary">Images Badges</h2>
-                    <p class="p-body-md main-p">To use image badges add code
-                        from below code snippet and
-                        add classes to it.Few classes are: </p>
-                    <ul class="main-bullet-points display-flex-col">
-                        <li class="p-body-md text-highlight regular-weight">badge
-                            icon-badge</li>
+                </div>
+                <h2 class="heading-primary">Images Badges</h2>
+                <p class="p-body-md main-p">To use image badges add code
+                    from below code snippet and
+                    add classes to it.Few classes are: </p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">badge
+                        icon-badge</li>
 
-                    </ul>
-                    <div class="component-code-container">
-                        <div class="component-container">
-
-
-                            <span class="badge-container icon-col">
-                                <i class="fas fa-shopping-cart fa-2x"></i>
-                                <span class="badge icon-badge">2</span>
-                            </span>
+                </ul>
+                <div class="component-code-container">
+                    <div class="component-container">
 
 
-                            <span class="badge-container icon-col">
-                                <i class="fas fa-bell fa-2x"></i>
-                                <span class="badge icon-badge">1</span>
-                            </span>
+                        <span class="badge-container icon-col">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                            <span class="badge icon-badge">2</span>
+                        </span>
 
-                        </div>
 
-                        <div class="code-container">
-                            <div class="code-snippet-display">
-                                <code>
+                        <span class="badge-container icon-col">
+                            <i class="fas fa-bell fa-2x"></i>
+                            <span class="badge icon-badge">1</span>
+                        </span>
+
+                    </div>
+
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
                                     <iframe
                                         src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253C%21--%2520cart%2520--%253E%250A%250A%2520%2520%253Cspan%2520class%253D%2522badge-container%2520icon-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520icon-badge%2522%253E2%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E%250A%250A%2520%2520%253C%21--%2520Notification%2520--%253E%250A%250A%2520%2520%253Cspan%2520class%253D%2522badge-container%2520icon-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520icon-badge%2522%253E1%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E"
                                         style="border:0; transform: scale(1);
@@ -325,36 +312,187 @@
                                         allow-same-origin">
                                     </iframe>
                                 </code>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </main>
-            <div class="sidebar" id="side-bar">
+            </div>
 
-                <!-- <div class="nav-bar-opening-button">
-                
-                    <span class="sidebar-arrow"><i class="h5 fas
-                            fa-chevron-down"></i></span>
-                </div> -->
-                <div class="sidebar-title-container">
-                    <h2 class="h4 nav-title heading-primary">Components</h2>
+            <!-- -----------------------------Buttons---------------------------------- -->
+
+
+            <div id="Button">
+                <div class="component-def">
+                    <h1 class="heading-primary">Buttons</h1>
+                    <p class="p-body-lg small-weight main-p">Buttons are also called as Call to action. it helps  to create user interaction</p>
                 </div>
-
-                <ul class="side-links side-list heading-primary">
-                    <li class="side-link-item"><a href="#Alerts">Alerts</a></li>
-                    <li class="side-link-item"><a href="#Avatar">Avatar</a></li>
-                    <li class="side-link-item"><a href="#Badges">Badge</a></li>
-                    <li class="side-link-item"><a href="#Button">Button</a></li>
-                    <li class="side-link-item"><a href="#Cards">Cards</a></li>
-                    <li class="side-link-item"><a href="#Form">Form</a></li>
-                    <li class="side-link-item"><a href="#Image">Image</a></li>
+                <h2 class="heading-primary">Primary Button</h2>
+                <p class="p-body-md main-p">To use primary button add code
+                    from below code snippet and
+                    add classes to it Below are the  classes : </p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">btn btn-solid-primary btn-lg</li>
+                    <li class="p-body-md text-highlight regular-weight">btn btn-solid-primary btn-sm</li>
                 </ul>
-                <div style="height: 1.5rem;">
-
+                <div class="component-code-container">
+                    <div class="component-container">
+                        <button class="btn btn-solid-primary btn-lg">Large Solid</button>
+                        <button class="btn btn-solid-primary btn-sm">Small Solid</button>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                   src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2520btn-lg%2522%253ELarge%2520Solid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2520btn-sm%2522%253ESmall%2520Solid%253C%252Fbutton%253E"
+                                    style="border:0; transform: scale(1);
+                                    overflow:hidden;"
+                                     sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                            </code>
+                        </div>
+                    </div>
                 </div>
+                <h2 class="heading-primary">Outline Button</h2>
+                <p class="p-body-md main-p">To use outline button add code
+                    from below code snippet and
+                    add classes to it.Below are the classes: </p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">btn-outline-primary btn-rounded-5</li>
+                    <li class="p-body-md text-highlight regular-weight">btn-outline-primary </li>
+                    <li class="p-body-md text-highlight regular-weight">btn-outline-primary btn-rounded-2r</li>
+                </ul>
+                <div class="component-code-container">
+                    <div class="component-container">
+                        <button class="btn btn-outline-primary btn-sm btn-rounded-5">Round-outline</button>
+                        <button class="btn btn-outline-primary btn-sm">Outline</button>
+                        <button class="btn btn-outline-primary btn-sm btn-rounded-2r">Signup</button>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2520btn-sm%2520btn-rounded-5%2522%253ERound-outline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2520btn-sm%2522%253EOutline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2520btn-sm%2520btn-rounded-2r%2522%253ESignup%253C%252Fbutton%253E"
+                                     style="border:0; transform: scale(1);
+                                        overflow:hidden;"
+                                      sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="heading-primary">Text-Icon Button</h2>
+                <p class="p-body-md main-p">To use Text-Icon button add code
+                    from below code snippet and
+                    add classes to it</p>
+                <div class="component-code-container">
+                    <div class="component-container">
+                        <button class="btn text-icon-btn btn-rounded-5 btn-solid-primary">
+                            <span class="button-text">Add to Cart</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520text-icon-btn%2520btn-rounded-5%2520btn-solid-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button-text%2522%253EAdd%2520to%2520Cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%253C%252Fbutton%253E"
+                                    style="border:0; transform: scale(1);
+                                    overflow:hidden;"
+                                    sandbox="allow-scripts
+                                    allow-same-origin">
+                                </iframe>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="heading-primary">Icon & Link Button</h2>
+                <p class="p-body-md main-p">To use Icon & Link Button add code
+                    from below code snippet and
+                    add classes to it.Few classes are: </p>
+                <div class="component-code-container">
+                    <div class="component-container">
+
+                      <!-- ------------cart-------------   -->
+                        <a class="button-icon-primary">
+                            <span class="btn-icon">
+                                <i class="fas fa-shopping-cart fa-2x"></i>
+                            </span>
+                        </a>
+                       <!-- ----------------Delete-----------  -->
+                        <a class="button-icon-secondary">
+                            <span class="btn-icon">
+                                <i class="far fa-trash-alt fa-2x"></i>
+                            </span>
+                        </a>
+                          <!-- ----------------LinkText----------- -->
+
+                        <a class="link-text-primary" href="#">Link Text</a>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520----cart--------%2520%2520%2520--%253E%250A%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522button-icon-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520-------Delete-------%2520--%253E%250A%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522button-icon-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-trash-alt%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%21--%2520------LinkText------%2520--%253E%250A%250A%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-text-primary%2522%2520href%253D%2522%2523%2522%253ELink%2520Text%253C%252Fa%253E"
+                                    style="border:0; transform: scale(1);
+                                    overflow:hidden;"
+                                    sandbox="allow-scripts
+                                    allow-same-origin">
+                                </iframe>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="heading-primary">Floating action Button</h2>
+                <p class="p-body-md main-p">To use Floating action Button add code
+                    from below code snippet and
+                    add classes to it</p>
+                <ul class="main-bullet-points display-flex-col">
+                    <li class="p-body-md text-highlight regular-weight">btn-float btn-primary-color</li>
+                    <li class="p-body-md text-highlight regular-weight">btn-float btn-secondary-color</li>
+
+                </ul>
+                <div class="component-code-container">
+                    <div class="component-container">
+                        <a class="btn btn-float btn-primary-color">+</a>
+                        <a class="btn btn-float btn-secondary-color"><i class="fas fa-arrow-up fa-xs"></i></a>
+                    </div>
+                    <div class="code-container">
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-float%2520btn-primary-color%2522%253E%252B%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-float%2520btn-secondary-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2520fa-xs%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fa%253E"
+                                    style="border:0; transform: scale(1);
+                                    overflow:hidden;"
+                                    sandbox="allow-scripts
+                                    allow-same-origin">
+                                </iframe>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <div class="sidebar" id="side-bar">
+            <div class="sidebar-title-container">
+                <h2 class="h4 nav-title heading-primary">Components</h2>
+            </div>
+
+            <ul class="side-links side-list heading-primary">
+                <li class="side-link-item"><a href="#Alerts">Alerts</a></li>
+                <li class="side-link-item"><a href="#Avatar">Avatar</a></li>
+                <li class="side-link-item"><a href="#Badges">Badge</a></li>
+                <li class="side-link-item"><a href="#Button">Button</a></li>
+                <li class="side-link-item"><a href="#Cards">Cards</a></li>
+                <li class="side-link-item"><a href="#Form">Form</a></li>
+                <li class="side-link-item"><a href="#Image">Image</a></li>
+            </ul>
+            <div style="height: 1.5rem;">
 
             </div>
-        </body>
 
-    </html>
+        </div>
+</body>
+
+</html>
