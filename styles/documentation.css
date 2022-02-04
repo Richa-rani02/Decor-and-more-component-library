@@ -5,7 +5,7 @@
 @import "/styles/Docs-style/navbar.css";
 @import "/styles/Docs-style/sidebar.css";
 @import "/styles/components-main.css";
-@import "/styles/common-style/typography.css";
+/* @import "/styles/common-style/typography.css"; */
 @import "/styles/common-style/base.css";
 
 
@@ -22,10 +22,10 @@ html{
 .grid-container{
 
     display: grid;
-	grid-template-columns: 0.4fr 1.5fr ;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 	grid-template-areas:
-		'navbar navbar'
-		'sidebar main';
+		'navbar navbar navbar navbar navbar  '
+		'sidebar main main main main';
 	margin-bottom: 1.5rem;
 }
 
@@ -61,7 +61,14 @@ li {
 		width: 100%;
 	}
     .navbar .logo .title{
-        font-size: 2rem;
+        font-size: 1.2rem;
+    }
+    .navbar .logo .small-title{
+        font-size: 0.6rem;
+    }
+
+    .nav-items{
+        display: none;
     }
    }
 

@@ -9,8 +9,8 @@
     --available-color:#47D764;
     --available-color-light:#C6F6D5;
     --away-color:#ffbc2c;
-     --text-primary-color:#202A44;
-     --text-secondary-color: #434B52;
+     --text-primary-color:#1A202C;
+     --text-secondary-color: #252a2e;
     --error-color:red;
     --error-color-light:#f9d3d2;
     --alert-info-color:#2F86EB;
@@ -26,7 +26,8 @@
     --off-white-dark:#EDEADE;
     --off-white-medium:#FAF9F6;
     --black: #000000;
-    --footer-color: #282C35;
-    --footer-color2:#16161d;
-    --footer-color3:#36454f;
+    --card-bg-color:#FAF9F6;
+    --card-shw-color:#ebebeb;
+
+
 }

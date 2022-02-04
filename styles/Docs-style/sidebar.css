@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-.nav-title {
+.side-title {
 	margin-top: 1rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
@@ -22,7 +22,8 @@
 .side-links {
 	text-align: center;
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     
 }
 .side-link-item:hover {
@@ -30,19 +31,19 @@
 }
 .side-link-item > a {
 	display: block;
-    padding: 10px 3rem;
+    padding: 10px 10px;
     color: inherit;
 
 }
 @media screen and (max-width:1024px) {
 .sidebar {
-    display: none;
+	display: none;
     overflow-y: hidden;
     height: 3.5rem;
     z-index:2;
 }
 
-.nav-title {
+.side-title {
     padding: 1rem 2rem;
     margin: 0;
     line-height: 1.5rem;
@@ -61,7 +62,7 @@
     overflow-y: auto;
     width: 100%;
 }
-.nav-link-item > a {
+.side-link-item > a {
     padding: 10px 1.6rem;
 }
 }
