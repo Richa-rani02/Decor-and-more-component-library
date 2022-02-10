@@ -8,3 +8,5 @@
 @import "../components/navigation.css";
 @import "/styles/common-style/reset.css";
 @import "/styles/common-style/colors.css";
+@import "../components/rating.css";
+@import "../components/list.css";

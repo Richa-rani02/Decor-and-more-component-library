@@ -1,0 +1,46 @@
+.styled-list-circle{
+    list-style:circle ;
+}
+.list-style-none{
+    list-style: none;
+    padding-inline-start: 0
+}
+.styled-list-square{
+    list-style:square;
+}
+
+.inline-list{
+    display: flex;
+}
+
+.list-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.list-box{
+    background-color: var(--card-bg-color);
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.stacked-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    width: 20rem;
+    height: auto;
+    list-style: none;
+}
+
+.stacked-list li{
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--card-bg-color);
+    font-size: 1.1rem;
+}
+.stacked-list li:not(:last-child){
+    margin-bottom: 8px;
+}

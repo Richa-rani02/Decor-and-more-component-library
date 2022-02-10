@@ -32,11 +32,6 @@ html{
 a {
     text-decoration: none;
    }
-
-li {
-    list-style: none;
-   }
-
    .display-flex-col{
      flex-direction: column;
    }
