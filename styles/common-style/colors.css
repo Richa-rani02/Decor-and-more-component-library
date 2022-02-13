@@ -2,15 +2,16 @@
     --primary-color:#1e3d59;
     --light-primary-color: #e1e6f5;
     --secondary-color: #ff6e40;
-    --accent-color:#ffc13b;
+    --secondary-color-light:#f90;
+    --accent-color:#32CD32;
     --background-color-nav:#f5f0e1;
     --background-color:#fbfaf4;
-    --off-white:#edf2f4;
+    --off-white:#ccc;
     --available-color:#47D764;
     --available-color-light:#C6F6D5;
     --away-color:#ffbc2c;
-     --text-primary-color:#202A44;
-     --text-secondary-color: #434B52;
+     --text-primary-color:#1A202C;
+     --text-secondary-color: #252a2e;
     --error-color:red;
     --error-color-light:#f9d3d2;
     --alert-info-color:#2F86EB;
@@ -21,12 +22,12 @@
     --alert-para-color:#656565;
     --white-color:white;
     --component-para-color:rgb(68, 70, 83);
-    --off-white: #f9f9f9;
     --off-white-light:#FFFFF0;
     --off-white-dark:#EDEADE;
     --off-white-medium:#FAF9F6;
     --black: #000000;
-    --footer-color: #282C35;
-    --footer-color2:#16161d;
-    --footer-color3:#36454f;
+    --card-bg-color:#eee;
+    --card-shw-color:#ebebeb;
+    --input-border-color:#d3d3d3;
+
 }
