@@ -1,6 +1,6 @@
 :root{
     --primary-color:#1e3d59;
-    --light-primary-color: #e1e6f5;
+    --primary-light-color: #779ecb;
     --secondary-color: #ff6e40;
     --secondary-color-light:#f90;
     --accent-color:#32CD32;
@@ -22,9 +22,6 @@
     --alert-para-color:#656565;
     --white-color:white;
     --component-para-color:rgb(68, 70, 83);
-    --off-white-light:#FFFFF0;
-    --off-white-dark:#EDEADE;
-    --off-white-medium:#FAF9F6;
     --black: #000000;
     --card-bg-color:#eee;
     --card-shw-color:#ebebeb;

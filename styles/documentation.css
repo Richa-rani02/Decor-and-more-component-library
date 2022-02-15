@@ -9,8 +9,9 @@
 @import "/styles/common-style/base.css";
 
 body{
-    background-color: var(--background-color-nav);
+    background-color:var(--bg-color);
 }
+
 .grid-container{
 
     display: grid;
@@ -35,15 +36,11 @@ body{
      .grid-container {
 		width: 100%;
 	}
-    .navbar .logo .title{
-        font-size: 1.2rem;
-    }
-    .navbar .logo .small-title{
-        font-size: 0.6rem;
-    }
-
-    .nav-items{
-        display: none;
+    .navbar .logo{
+            width: 150px;
+            height: 100%;
+            
+        
     }
    }
 

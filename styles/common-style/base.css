@@ -10,7 +10,11 @@ body {
 :root{
 
 /* ************************ colors************************* */
-
+--primary-color:#1e3d59;
+--light-primary-color: #e1e6f5;
+--bg-color:#FAFAFA;
+--border-color:#7e5e60;
+--highlight-color:#bcd4e6;
 
 
 /* ************************ spacing************************* */
