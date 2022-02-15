@@ -1,6 +1,6 @@
 .star-container{
     display: flex;
-    gap: 1rem;
+    gap: var(--spacing-1);
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -10,15 +10,12 @@
     color:var(--secondary-color);
     font-size: 1.2rem;
   }
-
-
-
   .star-rating-dynamic {
     display:flex;
     flex-direction: row-reverse;
     font-size:2.4rem;
     justify-content:space-around;
-    padding:0 .2rem;
+    padding:0 var(--spacing-8x);
     text-align:center;
     width:5em;
   }
