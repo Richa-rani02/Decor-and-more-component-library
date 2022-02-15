@@ -1,11 +1,11 @@
 .alert{
-    padding: 1rem 1.5rem;
-   border-radius: 7px;
+    padding: var(--spacing-1) var(--spacing-1-5);
+   border-radius: var(--spacing-7x);
    display: flex;
    align-items: center;
    justify-content: flex-start;
    flex-wrap: wrap;
-   gap: 1rem;
+   gap: var(--spacing-1);
   width: 100%;
     font-family: "Poppins",sans-serif;
  }
@@ -27,7 +27,7 @@
  
  /* Sucess */
  .success{
-     border-left: 8px solid var(--available-color);
+     border-left: var(--spacing-8x) solid var(--available-color);
      background-color: var(--available-color-light);
  }
  .success i{
@@ -36,7 +36,7 @@
  
  /* error */
  .error{
-      border-left: 8px solid var(--error-color);
+      border-left: var(--spacing-8x) solid var(--error-color);
       background-color: var(--error-color-light);
  }
  .error i{
@@ -45,7 +45,7 @@
  
  /* info */
  .info{
-      border-left: 8px solid var(--alert-info-color);
+      border-left: var(--spacing-8x) solid var(--alert-info-color);
       background-color: var(--alert-info-color-light);
     }
  .info i{
@@ -55,7 +55,7 @@
  /* warning */
  .warning{
    background-color: var(--alert-color-light);
-      border-left: 8px solid  var(--alert-warning-color);
+      border-left: var(--spacing-8x) solid  var(--alert-warning-color);
  }
  .warning i{
    color: var(--alert-warning-color);

@@ -31,11 +31,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: var(--spacing-1);
     flex-wrap: wrap;
-    border: 1px solid var(--white-color);
-    padding: 10px;
-    margin: 10px;
+    border: var(--spacing-1x) solid var(--white-color);
+    padding: var(--spacing-10x);
+    margin: var(--spacing-10x);
 }
 
 h1{

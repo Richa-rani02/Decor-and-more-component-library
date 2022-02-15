@@ -1,7 +1,7 @@
 
 main{
   /* padding: 2rem 2.5rem; */
-     padding: 0.9rem 1.5rem;
+     padding:  var(--spacing-0-8)  var(--spacing-1-5);
    grid-area: main;
    width: 100%;
    box-sizing: border-box;
@@ -9,8 +9,8 @@ main{
  }
  .inline-code{
   background-color: var(--light-primary-color);
-  padding: 0 3px ;
-  border-radius: 3px;
+  padding: 0  var(--spacing-3x) ;
+  border-radius: var(--spacing-3x);
   font-size: 1rem;
   font-weight: 500;
  }
@@ -18,22 +18,22 @@ main{
  .heading-1{
    color: var(--text-primary-color);
    font-size: 2.3rem;
-   padding: 10px 0;
+   padding:  var(--spacing-10x) 0;
    font-weight: 600;
- 
  }
  .component-def{
-   margin-bottom: 2rem;
+   margin-bottom:  var(--spacing-2);
  }
  
  .sub-comp-def{
-   margin-top: 1.5rem;
+   margin-top:  var(--spacing-1-5);
  }
  .heading-2{
    color: var(--text-primary-color);
    font-size: 1.6rem;
-   padding: 0 0 10px;
+   padding: 0 0  var(--spacing-10x);
    font-weight: 500;
+  
  }
  .main-p{
    color: var(--text-primary-color);
@@ -44,7 +44,7 @@ main{
  .sub-p{
    color: var(--text-secondary-color);
    font-size: 1.1rem;
-   padding: 5px;
+   padding: var(--spacing-5x);
    line-height: 1.7rem;
  }
  
@@ -56,7 +56,7 @@ main{
  }
  
  .component-code-container{
-     margin-top: 3rem;
+     margin-top:  var(--spacing-3);
      display: flex;
      align-items: center;
      justify-content: center;
@@ -66,17 +66,17 @@ main{
      display: flex;
      align-items: baseline;
      justify-content: center;
-     gap: 1rem;
+     gap: var(--spacing-1);
      width: 100%;
      background-color: var(--white-color);
      flex-wrap: wrap;
-     border-radius: 5px;
-     padding: 1rem; 
+     border-radius:  var(--spacing-5x);
+     padding:  var(--spacing-1); 
  }
  .code-container{
      width: 100%;
-     margin-top: 2rem;
-     margin-bottom: 0.8rem;
+     margin-top:  var(--spacing-2);
+     margin-bottom:  var(--spacing-0-8);
  }
  
  
@@ -98,6 +98,6 @@ main{
    display: flex;
    align-items: flex-start;
    justify-content: baseline;
-   gap:5px;
-   padding-top: 10px;
+   gap: var(--spacing-5x);
+   padding-top:  var(--spacing-10x);
  }
