@@ -11,51 +11,192 @@
 .container {
     width:100%;
     height:100vh;
-    background-image: url(../images/productbg1.png);
-    background-size: cover;
-    background-position: top left;
-    position: relative;
+    background-color: var(--bg-color);
+
 
 }
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
+    background-image: url(../images/productbg1.png);
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+    grid-template-areas: "hero-content img-container";
   }
   
   .hero-content {
-    padding: 20vh 8rem;
+    grid-area: hero-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:var(--spacing-1) var(--spacing-2);
+    
   }
   
   .hero-title {
-    margin-bottom: var(--spacing-1);
+    margin-bottom: var(--spacing-0-8);
     font-size: 2.5rem;
     color: var(--primary-dark);
+    text-align: center;
   }
+
+  .img-container{
+    grid-area: img-container;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:var(--spacing-1) var(--spacing-2);
+    
+
   
+  }
+  .install-btn{
+    box-shadow: var(--spacing-5x) var(--spacing-10x) var(--spacing-1-3) rgba(90,118,253,0.5);
+  }
+  .started-btn{
+    box-shadow: var(--spacing-5x) var(--spacing-10x) var(--spacing-1-3) rgba(90,118,253,0.5);
+  }
   .hero-sub-title {
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 2.5rem;
+    flex-wrap: wrap;
   }
   
   .btn-container {
     display: flex;
-
-  }
-
-  .install-btn {
-    margin-right: var(--spacing-0-5);
+    flex-wrap: wrap;
+    gap: var(--spacing-1);
+    margin-bottom: var(--spacing-0-5);
   }
   .hero-img {
     height: 80%;
     width: 80%;
   }
-  a {
-    text-decoration: none;
-   }
+.installation-container{
+  display: flex;
+  background-color: var(--bg-color);
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+  align-items: center;
+}
+.installation-title-container{
+   width: 45%;
+   margin: var(--spacing-2);
+}
+
+.code-container{
+  width: 45%;
+  margin-top:  var(--spacing-2);
+  margin-bottom:  var(--spacing-2);
+  margin-left: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.code-snippet-display{
+box-sizing: border-box;
+width: 80%;
+max-height: 400px;
+margin: 20 0;
+overflow: hidden;
+}
+.code-snippet-display iframe{
+width: 100%;
+border: none;
+height: 250px;
+}
+
+.heading-1{
+  color: var(--text-primary-color);
+  font-size: 2.3rem;
+  padding:  var(--spacing-10x) 0;
+  font-weight: 600;
+}
+
+.main-p{
+   color: var(--text-primary-color);
+   font-size: 1.2rem;
+   font-weight: 400;
+   line-height: 1.7rem;
+ }
+ .footer {
+  width:100%;
+  background-color: var(--text-primary-color);
+  padding: var(--spacing-1);
+  text-align:center;
+  color:var(--white-color);
+}
+.footer .footer-header {
+  font-size:1.3rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: var(--spacing-10x);
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-2);
+}
+
+.footer-icons a {
+  display: flex;
+  width: 2.1rem;
+  height: 2.1rem;
+  cursor: pointer;
+  background-color: var(--footer-highlight-color);
+  border-radius: var(--spacing-2x);
+  font-size: 1.3rem;
+  color:var(--white-color);
+  align-items: center;
+  justify-content: center;
+}
 
 
+
+
+/* **************Media Query***************** */
+
+   @media only screen and (max-width: 550px) {
+     .navbar .logo{
+             width: 150px;
+             height: 100%;
+             
+         
+     }
+     .container{
+         width: 100vw;
+         height: 100vh;
+     }
+
+     .hero-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        width: 100%;
+        grid-template-areas:
+        "img-container"
+        "hero-content";
+      }
+
+      .hero-img {
+        height: 100%;
+        width: 100%;
+      }
+      .installation-title-container{
+        width: 100%;
+      }
+      .code-container{
+        width: 100%;
+      }
+
+      .component-container{
+        width: 100%;
+      }
+    }
 
 
    
