@@ -10,7 +10,7 @@
 @import "/styles/common-style/colors.css";
 @import "../components/rating.css";
 @import "../components/list.css";
-
+@import "../components/typography.css";
 
 :root{
 
