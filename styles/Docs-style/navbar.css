@@ -48,6 +48,7 @@ padding: var(--spacing-5x) var(--spacing-7x);
         background-color: var(--primary-light-color);
         border-radius:var(--spacing-5x);
         transition: 0.3s ease;
+        box-shadow: var(--spacing-2x) var(--spacing-5x) var(--spacing-1) rgba(90,118,253,0.5);
        }
        .nav-items a:hover {
         color: var(--white-color);

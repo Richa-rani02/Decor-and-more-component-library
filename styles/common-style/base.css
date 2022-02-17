@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -15,6 +16,7 @@ body {
 --bg-color:#FAFAFA;
 --border-color:#7e5e60;
 --highlight-color:#bcd4e6;
+--footer-highlight-color:#33383b;
 
 
 /* ************************ spacing************************* */
@@ -49,12 +51,50 @@ body {
 }
 
 .text-highlight{
-    color: var(--secondary-color);
+    color: var(--primary-light-color);
   }
 
   a {
     text-decoration: none;
    }
 
+   .text-center{
+       text-align: center;
+   }
+
+   .flex-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+   }
+   .flex-item-center{
+display: flex;
+align-items: center;
+   }
+   .flex-content-center{
+    display: flex;
+   justify-content: center;
+       }
 
 
+       #divider hr {
+        border: var(--spacing-1x) solid var(--alert-para-color);
+        border-radius: var(--spacing-7x);
+        width: 50%;
+        margin: 0 auto;
+        height: 3px;
+        background: var(--alert-para-color);
+    }
+
+    display-position{
+        position: relative;
+    }
+
+    .auto-margin{
+        margin-left: auto;
+    }
+    
+    
+
+ 
