@@ -12,6 +12,8 @@
 @import "../components/list.css";
 @import "../components/typography.css";
 @import "/components/modal.css";
+@import "../components/grid.css";
+@import "../components/slider.css";
 
 :root{
 
