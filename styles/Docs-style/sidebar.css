@@ -27,6 +27,7 @@
     padding-left: var(--spacing-1);
     padding-right: var(--spacing-1);
     text-align: center;
+    margin-bottom: var(--spacing-1-5);
    
 }
 .side-link-item:hover {
