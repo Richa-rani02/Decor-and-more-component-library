@@ -11,11 +11,17 @@
 @import "../components/rating.css";
 @import "../components/list.css";
 @import "../components/typography.css";
+@import "/components/modal.css";
 
 :root{
 
     /* ************colors************** */
-    
+    --modal-color: rgba(0,0,0,0.5);
+
+
+
+
+
     /* ************************ spacing************************* */
 --spacing-2x:2px;
 --spacing-3x:3px;
