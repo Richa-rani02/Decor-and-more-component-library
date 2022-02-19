@@ -7,7 +7,7 @@
 }
 
 .round-corner{
-    border-radius:7px;
+    border-radius:var(--spacing-7x);
 }
 .circular-img{
     border-radius: 50%; 

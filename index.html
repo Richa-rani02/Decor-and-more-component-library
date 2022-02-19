@@ -6,43 +6,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/styles/home.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="Images/logo1.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <title>component library</title>
+    <title>Visual | Home</title>
 </head>
 
 <body>
     <div class="container">
         <nav class="navbar">
             <div class="logo">
-                <span class="title">Visual</span>
-                <span class="title text-highlight">UI</span>
+                <img src="Images/logo1.png" class="header-logo">
             </div>
-            <ul class="nav-link">
+
+             <ul class="nav-link list-style-none">
 
                 <div class="nav-items">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://github.com/Richa-rani02"><i class="fab fa-github"></i></a></li>
                 </div>
             </ul>
         </nav>
-        <main class="main-container ">
-            <div class="main-margin"></div>
-            <div class="main-flex display-flex-col">
-                <!-- <div class="main-title">Decorate your website with <span class="main-title-name">Decor & More </span>UI
-                    Library</div> -->
-                <div class="main-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, esse.</div>
-                <div class="btn-group">
-                    <button class="primary-btn"><a href="/docs.html">Get Started</a></button>
-                    <button class="secondary-btn"><a href="#">Installation</a></button>
+        <main>
+            <div class="hero-container">
+                <div class="hero-content display-flex-col">
+                    <h1 class="hero-title">VISUAL UI</h1>
+                    <p class="hero-sub-title">
+                        A lightweight and ready to use CSS library for developing fast and
+                        responsive website. Develop with <span class="text-highlight">visual UI</span> 
+                    </p>
+
+                    <div class="btn-container">
+                        <a href="#installation" class="btn btn-outline-primary btn-sm btn-rounded-5 install-btn">Installation</a>
+
+                        <a href="/docs.html" class="btn btn-solid-primary btn-sm btn-rounded-5 started-btn ">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="img-container">
+                    <img src="/Images/homebg.png" alt="ui-image" class="hero-img" />
                 </div>
             </div>
+            <span id="divider"><hr></span>
 
+            <div id="installation" class=" installation-container">
+                <div class="installation-title-container">
+                    <h1 class="heading-1 text-center">Installation</h1>
+                    <p class="main-p">
+                        Include code in the head tag of your html document and start working on your website.
+                        Read documentation for components and their variations
+                    </p>
+                </div>
+                <div class="code-container flex-container">
+                    <div class="code-snippet-display">
+                        <code>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=verminal&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fvisualui.netlify.app%252Fstyles%252Fcomponents-main.css%2522%253E"
+                            style="border:0; transform:
+                            scale(1);overflow:hidden;"
+                            sandbox="allow-scripts
+                            allow-same-origin"  >
+                            </iframe>
+                        </code>
+                    </div>
+                </div>
+            </div>
         </main>
-
-
+        <footer class="footer">
+            <div class="footer-header">Made with <span class="text-highlight">&lt;/&gt;</span>  by Richa</div>
+            <ul class="list-style-none">
+                <div class="footer-icons">
+                    <li>
+                        <a href="https://github.com/Richa-rani02"><i class="fab fa-github"></i></a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/richa-rani02/"><i class="fab fa-linkedin"></i></a>
+    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/richa.1997/"><i class="fab fa-twitter"></i></a>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </footer>
     </div>
+    
 
 </body>
 

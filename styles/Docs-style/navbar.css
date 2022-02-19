@@ -1,51 +1,58 @@
 .navbar{
-    display: flex;
-    padding: 1rem;
-    background-color:var(--background-color-nav);
-     color: var(--primary-color);
-    align-items: center;
-    box-shadow: 0 2px 1.3px 0 rgba(0,0,0,.2);
-    grid-area: navbar;
-	min-height: 6vh;
-	width: 100%;
-	z-index: 3;
-    position: sticky; 
-	top: 0;
+display: flex;
+height: 5rem;
+width: 100%;
+position: sticky;
+align-items: center;
+background-color: var(--bg-color);
+color: var(--primary-color);
+box-shadow: var(--spacing-2x) var(--spacing-2x) var(--spacing-1-5) rgba(90,118,253,0.13);
+z-index: 3;
+top: 0; 
+grid-area: navbar;
  
 }
-.logo .title  {
-    font-size: 2.5rem;
-   font-weight: bold;
-} 
-.logo .small-title{
-    font-size: 1.4rem;
+.logo{
+    width: 200px;
+    height: 100%;
+ display: flex;
+    align-items: center;
+    justify-content: center; 
+    
 }
+
+nav img{
+   width:100%;
+   margin-top: var(--spacing-2);
+    
+}
+
 .nav-link{
     margin-left: auto;
     font-size: 1.2rem;
-    margin-right: 2rem;
+    margin-right: var(--spacing-2);
     font-weight: 500;
 } 
  .nav-items{
     display: flex;
-    gap: 1rem;
+    gap: var(--spacing-1);
 }
  .nav-items li{
-padding: 5px 7px;
+padding: var(--spacing-5x) var(--spacing-7x);
  }  
  .nav-items a{
    color: var(--primary-color);
      }
 
 .nav-items li:hover {
-        background-color: var(--light-primary-color);
-        border-radius: 5px;
+        background-color: var(--primary-light-color);
+        border-radius:var(--spacing-5x);
         transition: 0.3s ease;
+        box-shadow: var(--spacing-2x) var(--spacing-5x) var(--spacing-1) rgba(90,118,253,0.5);
        }
-       .hamburger {
-        font-size: 1.2rem;
-        margin-right: 1rem;
-        font-weight: bold;
-        border-radius: 50%;
+       .nav-items a:hover {
+        color: var(--white-color);
+       }
 
-       }
+
+

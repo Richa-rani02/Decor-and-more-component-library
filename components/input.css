@@ -1,9 +1,9 @@
 .input-container{
   width: 100%;
-  margin: 0.5rem 1rem 0 1rem;
+  margin: var(--spacing-0-5) var(--spacing-1) 0 var(--spacing-1);
   }
   .input-label-container{
-      margin: 0.5rem 1rem 0 1rem;
+      margin: var(--spacing-0-5) var(--spacing-1) 0 var(--spacing-1);
     width: 100%;
   }
   .input-control{
@@ -12,22 +12,22 @@
   }
   .input-field {
     width: 100%;
-    border-radius: 5px;
+    border-radius: var(--spacing-5x);
     font-size: 0.95rem;
     outline: none;
-    padding: 0.8rem 1rem;
+    padding:var(--spacing-0-8) var(--spacing-1);
      box-sizing: border-box;
   }
   .input-active{
-     border: 1px solid var(--input-border-color);
+     border: var(--spacing-1x) solid var(--input-border-color);
   }
 
   .input-disabled{
-      border: 1px solid var(--input-border-color);
+      border: var(--spacing-1x) solid var(--input-border-color);
       background-color: var(--light-primary-color);
   }
   .input-field:focus {
-    border: 2px solid var(--primary-color);
+    border: var(--spacing-2x) solid var(--primary-color);
   }
 
   .form-label{
@@ -41,7 +41,7 @@
       }
 
      .btn-container{
-         margin-top: 2rem;
+         margin-top: var(--spacing-2);
          display: flex;
          align-items: center;
          justify-content: center;

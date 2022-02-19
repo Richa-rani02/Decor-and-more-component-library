@@ -7,63 +7,90 @@
     box-shadow:  0 0 1.3px 0 rgba(0,0,0,.2);
    
 } 
+
 .sidebar-title-container{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.sidebar-arrow{
+    display: none;
+}
 .side-title {
-	margin-top: 1rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	margin-top: var(--spacing-1);
+	padding-left: var(--spacing-3);
+	padding-right: var(--spacing-3);
 }
 .side-links {
-	text-align: center;
     list-style: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
+    padding-left: var(--spacing-1);
+    padding-right: var(--spacing-1);
+    text-align: center;
+    margin-bottom: var(--spacing-1-5);
+   
 }
 .side-link-item:hover {
-	background-color: var(--light-primary-color);
+	background-color: var(--highlight-color);
+    border-radius: var(--spacing-7x);
 }
 .side-link-item > a {
 	display: block;
-    padding: 10px 10px;
+    padding: var(--spacing-10x)  var(--spacing-10x);
     color: inherit;
+
 
 }
 @media screen and (max-width:1024px) {
+
 .sidebar {
-	display: none;
     overflow-y: hidden;
-    height: 3.5rem;
-    z-index:2;
+    height: 3.3rem;
+    z-index:var(--z-index-2);
+    background-color: var(--white-color);
 }
-
+.sidebar-title-container{
+       cursor: pointer;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: var(--mr-1);
+}
 .side-title {
-    padding: 1rem 2rem;
-    margin: 0;
-    line-height: 1.5rem;
+text-align: left;
+line-height: 1.5rem;
 }
-.sidebar {
-    height: 100vh;
+.sidebar-arrow {
+    display: block;
+    padding:  var(--spacing-1)  var(--spacing-1-5);
 }
 
+.sidebar-active .sidebar-arrow i {
+    transform: rotate(180deg);
+}
 .side-links {
+    display: none;
+}
+.sidebar-active.sidebar {
+    height: 100vh;
+    transition: .4s linear;
+}
+
+.sidebar-active .side-links {
     display: block;
     position: absolute;
-    top: 2.5rem;
+    top: 3.5rem;
     height: calc(100vh - 3.5rem);
-    z-index: 3;
-    padding-bottom: 1.5rem;
+    z-index: var(--z-index-3);
+    padding-bottom:  var(--spacing-1-5);
     overflow-y: auto;
     width: 100%;
+       
 }
-.side-link-item > a {
-    padding: 10px 1.6rem;
+
+.sidebar-active .side-links>li{
+    border-bottom:1px solid var(--card-bg-color)
 }
+
 }
 

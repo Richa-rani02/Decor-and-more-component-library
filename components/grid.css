@@ -1,0 +1,37 @@
+
+.grid-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-3{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+}
+.grip-space{
+    gap:1rem
+}
+
+.grid-item{
+    padding: var(--spacing-2);
+    width: 100%;
+}
+
+.grid-box{
+    background-color: var(--pink-light);
+    color: var(--black);
+
+}
+
+@media only screen and (max-width: 550px) {
+    .grid-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
