@@ -1,31 +1,31 @@
-h1,.heading-1{
+.h1{
     font-size: 2.3rem;
     padding:  var(--spacing-10x) 0;
     font-weight: 600;
 }
 
-h2,.heading-2{
+.h2{
    font-size: 1.6rem;
    padding: 0 0  var(--spacing-10x);
    font-weight: 500;
 }
 
-h3{
+.h3{
     font-size: 1.4rem;
     padding: 0 0  var(--spacing-8x);
     font-weight: 500;
 }
-h4{
+.h4{
     font-size: 1.2rem;
     padding: 0 0  var(--spacing-6x);
     font-weight: 500;
 }
-h5{
+.h5{
     font-size: 1.1rem;
     padding: 0 0  var(--spacing-4x);
     font-weight: 300;
 }
-h6{
+.h6{
     font-size: 1rem;
     padding: 0 0  var(--spacing-2x);
     font-weight: 300;
