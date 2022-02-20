@@ -1,61 +1,69 @@
-
-.navigation-header{
+.navigation-header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var( --light-primary-color);
+    background-color: var(--light-primary-color);
     width: 100%;
-    padding:  var(--spacing-1) 5%;
+    padding: var(--spacing-1) 5%;
 }
+
 .navigation-header .logo {
     font-size: 1.5rem;
     font-weight: bolder;
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
 
-.navigation-header .logo i{
-    color:var(--accent-color);
+.navigation-header .logo i {
+    color: var(--accent-color);
 }
 
-.navigation-navbar a{
-    font-size:1.2rem;
-    margin:0 var(--spacing-1);
-    color:var(--primary-color);
+.navigation-navbar a {
+    font-size: 1.2rem;
+    margin: 0 var(--spacing-1);
+    color: var(--primary-color);
 }
-.navigation-navbar a:hover{
-    color:var(--secondary-color);
+
+.navigation-navbar a:hover {
+    color: var(--secondary-color);
 }
-.navigation-header .icons div{
+
+.navigation-header .icons div {
     height: 2rem;
     width: 2rem;
     line-height: 2rem;
     border-radius: 50%;
     background: var(--background-color);
-    color:var(--primary-color);
+    color: var(--primary-color);
     font-size: 1rem;
     margin-left: var(--spacing-2x);
     cursor: pointer;
     text-align: center;
 }
-.navigation-header .icons div:hover{
+
+.navigation-header .icons div:hover {
     background: var(--secondary-color);
-    color:var(--white-color);
+    color: var(--white-color);
 }
-#menu-btn{
+
+#menu-btn {
     display: none;
 }
 
-@media (max-width:768px){
-    .navigation-header .logo{
+@media (max-width:768px) {
+    .navigation-header .logo {
         font-size: 1rem;
     }
-    .navigation-header{
-        padding: var(--spacing-1) 1%;;
+
+    .navigation-header {
+        padding: var(--spacing-1) 1%;
+        ;
     }
-    #menu-btn{
+
+    #menu-btn {
         display: inline-block;
     }
-    .navigation-header .navigation-navbar{
+
+    .navigation-header .navigation-navbar {
         display: none;
     }
 

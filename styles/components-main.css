@@ -7,7 +7,6 @@
 @import "../components/input.css";
 @import "../components/navigation.css";
 @import "/styles/common-style/reset.css";
-@import "/styles/common-style/colors.css";
 @import "../components/rating.css";
 @import "../components/list.css";
 @import "../components/typography.css";
@@ -15,29 +14,53 @@
 @import "../components/grid.css";
 @import "../components/slider.css";
 
-:root{
+:root {
 
     /* ************colors************** */
-    --modal-color: rgba(0,0,0,0.5);
 
-
+    --primary-color: #1e3d59;
+    --secondary-color: #ff6e40;
+    --secondary-color-light: #f90;
+    --accent-color: #32CD32;
+    --light-primary-color: #e1e6f5;
+    --modal-color: rgba(0, 0, 0, 0.5);
+    --text-primary-color: #1A202C;
+    --text-secondary-color: #252a2e;
+    --background-color: #fbfaf4;
+    --available-color: #47D764;
+    --available-color-light: #C6F6D5;
+    --error-color: red;
+    --error-color-light: #f9d3d2;
+    --alert-info-color: #2F86EB;
+    --alert-info-color-light: #E9F2FC;
+    --alert-warning-color: #FFC021;
+    --alert-color-light: #FEEBC8;
+    --alert-heading-color: #101020;
+    --alert-para-color: #656565;
+    --white-color: white;
+    --off-white: #ccc;
+    --black-color: black;
+    --away-color: #ffbc2c;
+    --card-bg-color: #eee;
+    --card-shw-color: #ebebeb;
+    --input-border-color: #d3d3d3;
 
 
 
     /* ************************ spacing************************* */
---spacing-2x:2px;
---spacing-3x:3px;
---spacing-4x:4px;
---spacing-5x:5px;
---spacing-8x:8px;
---spacing-10x:10px;
---spacing-0-5:0.5rem;
---spacing-0-8:0.8rem;
---spacing-1:1rem;
---spacing-1-3:1.3rem;
---spacing-1-5:1.5rem;
---spacing-2:2rem;
---spacing-3:3rem;
---spacing-4:4rem;
---spacing-5:5rem; 
- }
+    --spacing-2x: 2px;
+    --spacing-3x: 3px;
+    --spacing-4x: 4px;
+    --spacing-5x: 5px;
+    --spacing-8x: 8px;
+    --spacing-10x: 10px;
+    --spacing-0-5: 0.5rem;
+    --spacing-0-8: 0.8rem;
+    --spacing-1: 1rem;
+    --spacing-1-3: 1.3rem;
+    --spacing-1-5: 1.5rem;
+    --spacing-2: 2rem;
+    --spacing-3: 3rem;
+    --spacing-4: 4rem;
+    --spacing-5: 5rem;
+}

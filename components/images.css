@@ -1,19 +1,19 @@
-
-
-.img-responsive{
+.img-responsive {
     object-fit: contain;
     width: 100%;
     height: 30%;
 }
 
-.round-corner{
-    border-radius:var(--spacing-7x);
+.round-corner {
+    border-radius: var(--spacing-7x);
 }
-.circular-img{
-    border-radius: 50%; 
-  }
+
+.circular-img {
+    border-radius: 50%;
+}
+
 @media screen and (min-width: 650px) {
-    .img{
+    .img {
         width: 30%;
         height: 30%;
     }
