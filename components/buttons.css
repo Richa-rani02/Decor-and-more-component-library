@@ -3,6 +3,9 @@
     cursor: pointer;
     font-size:1.1rem;
   }
+  .btn-default{
+    padding: var(--spacing-7x);
+  }
   .btn-sm{
    font-size:1rem;
    padding: var(--spacing-10x) var(--spacing-1-3);
