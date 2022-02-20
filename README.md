@@ -76,3 +76,7 @@ The list of components present in  the library are:
 - Three-Column Grid 
 
 ### 14.Slider
+
+![componentlibrary](https://user-images.githubusercontent.com/49235266/154846273-9d671ff6-6f17-4a64-8600-a56679e0328b.gif)
+
+
