@@ -49,3 +49,6 @@
    .form-error{
         color: var(--error-color);
       }
+      .form-success{
+        color: var(--available-color);
+      }
