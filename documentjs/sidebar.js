@@ -1,14 +1,14 @@
-const mySideBar = document.querySelector('#side-bar');
+const SideBar = document.querySelector('#side-bar');
 const sideBarButton = document.querySelector('.sidebar-title-container');
-const sideBarNavLinks = document.querySelectorAll('.side-link-item');
+const sideBarLinks = document.querySelectorAll('.side-link-item');
 
-const arrayOfClickableItemsToToggleSideBar = [
+const arrayOfSideBaritems = [
 	sideBarButton,
-	...sideBarNavLinks,
+	...sideBarLinks,
 ];
 
-arrayOfClickableItemsToToggleSideBar.forEach((button) => {
+arrayOfSideBaritems.forEach((button) => {
 	button.addEventListener('click', () => {
-		mySideBar.classList.toggle('sidebar-active');
+		SideBar.classList.toggle('sidebar-active');
 	});
 });
