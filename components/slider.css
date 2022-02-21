@@ -2,7 +2,7 @@
     width: 100%;
     padding:var(--spacing-2) 0 ;
 }
-input{
+.slider{
     width: 100%;
     padding: var(--spacing-1);
 }
