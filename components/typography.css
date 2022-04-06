@@ -41,3 +41,10 @@
     padding: var(--spacing-5x);
     line-height: 1.7rem;
   }
+
+  .grey-text{
+      color:var(--grey-text-color)
+  }
+  .centered-text{
+      text-align: center;
+  }
