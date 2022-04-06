@@ -82,3 +82,7 @@ main{
    gap: var(--spacing-5x);
    padding-top:  var(--spacing-10x);
  }
+ .center-container{
+  width: 100%;
+
+   }
