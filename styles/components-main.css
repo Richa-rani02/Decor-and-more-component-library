@@ -13,6 +13,7 @@
 @import "/components/modal.css";
 @import "../components/grid.css";
 @import "../components/slider.css";
+@import "../components/toast.css";
 
 :root {
 
@@ -45,6 +46,9 @@
     --card-shw-color: #ebebeb;
     --input-border-color: #d3d3d3;
     --grey-text-color:#808080;
+    --success-color:#1b7052;
+    --success-color-light:#84f1c9;
+    
 
 
 
