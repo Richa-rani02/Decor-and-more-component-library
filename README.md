@@ -67,15 +67,19 @@ The list of components present in  the library are:
 ### 11.Typography
 - Headings 
 - Paragraphs
+- Grey and centered text
 
-### 12.Modal
+### 12.Toast
+- success,warning,info taost
+
+### 13.Modal
 - pop up modal
 
-### 13.Grid
+### 14.Grid
 - Two-Column Grid
 - Three-Column Grid 
 
-### 14.Slider
+### 15.Slider
 
 ![componentlibrary](https://user-images.githubusercontent.com/49235266/154846273-9d671ff6-6f17-4a64-8600-a56679e0328b.gif)
 
