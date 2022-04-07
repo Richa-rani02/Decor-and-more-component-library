@@ -70,7 +70,7 @@ The list of components present in  the library are:
 - Grey and centered text
 
 ### 12.Toast
-- success,warning,info taost
+- success,warning,info taost to alert user 
 
 ### 13.Modal
 - pop up modal
