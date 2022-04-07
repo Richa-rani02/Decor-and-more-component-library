@@ -69,7 +69,6 @@ The list of components present in  the library are:
 - Paragraphs
 - Grey and centered text
 
-
 ### 12.Toast
 - success,warning,info taost
 
